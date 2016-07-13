@@ -5,12 +5,15 @@
 
 <?php
 
+if ( !isset($_POST['name'] || !isset($_POST['password'] || !isset($_POST['sex'] )   return;
+
 $MAX_NAME_SIZE = 20;
 
 $name_size = mb_strlen($_POST['name']);
 $name;
 $password;
 $sex;
+
 
 // empty check---------------------------------
 if ( $_POST['name'] != "" )
