@@ -92,7 +92,7 @@ function ShowResult($name, $password, $sex)
 }
 ?>
 
-<A Href="http://localhost/yaden-064/submit.php">入力画面へもどる</A><br /><br />
-<A Href="http://localhost/yaden-064/Main.html">タイトルへもどる</A><br /><br />
+<A Href="submit.php">入力画面へもどる</A><br /><br />
+<A Href="index.html">タイトルへもどる</A><br /><br />
 
 </body>
